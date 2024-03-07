@@ -1,0 +1,38 @@
+/*Reset CSS*/
+
+/* Selector universal para aplicar estilos a todos los elementos*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* aplicar un estilo mínimo al cuerpo del doc*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*corregir estilos para los elementos de lista */
+ul, ol {
+    list-style: none; /*eliminar los estilos de viñetas/núm en listas*/
+}
+
+/*establecer estilos básicos para los elementos de texto*/
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+/*establecer estilos básicos para los enlaces*/
+a {
+    text-decoration: none; /*eliminar la subrayado pretederminado de los enlaces*/
+    color: inherit; /*heredar el color del texto del elemento padre*/
+}
+
+/*establecer estilos básicos para las imágenes*/
+img {
+    max-width: 100%; /*hacer que las img sean responsivas dentro de su contenedor*/
+    height: auto;
+}

@@ -3,9 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nabla&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/img/luna png.png" type="image/x-icon">
+    <title>valentina</title>
 </head>
 <body>
-    <h1>Proyecto M1</h1>
+    <header>
+        <div id="container-titulo">
+            <h1 class="titulos" id="titulo-principal">Valentina Panesi</h1>
+            <h3 class="titulos" id="titulo-secundario">mi página web</h3>
+        </div>
+    </header>
+    <main>
+        <section>
+            <article>
+                <div class="container" id="container-pres">
+                    <h2 class="titulos">💁‍♀️¿Quién soy?💁‍♀️</h2>
+                    <div id="texto-pres">
+                        <p>¡Bienvenid@s! Mi nombre es Valentina Panesi, tengo 23 años y soy argentina.</p>
+                        <p>Estoy abordando el gran desafío de aprender a programar gracias a la carrera de desarrolladora full stack brindada por la academia online 🚀Henry🚀. </p>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section>
+            <article>
+                <div class="container">
+                    <h2 class="titulos" id="titulo-tec">🌞Mis tecnologías favoritas🌞</h2>                   
+                    
+                    <div id="container-cards">
+                        <div class="cards">
+                            <h4 class="etiquetas">HTML</h4>
+                            <img src="assets/img/html.jpg" alt="html" class="image">
+                        </div>
+                        <div class="cards">
+                            <h4 class="etiquetas">JAVASCRIPT</h4>
+                            <img src="assets/img/js.jpg" alt="javascript" class="image">
+                        </div>
+                        <div class="cards">
+                            <h4 class="etiquetas">CSS</h4>
+                            <img src="assets/img/css.jpg" alt="css" class="image">
+                        </div>
+                    </div>
+                
+                </div>    
+            </article>
+        </section>
+
+        <section>
+            <article>
+
+                <div id="container-input">
+                    <h2 class="titulos">🧘‍♀️Mis actividades favoritas🧘‍♀️</h2>
+                    
+                    <div>
+                        <input type="text" name="nombre" placeholder="Nombre de la actividad" class="input">
+                    </div>
+                    <div>
+                        <input type="text" name="descripción" placeholder="Descripción de la actividad" class="input">
+                    </div>
+                    <div>
+                        <input type="text" name="imagen" placeholder="Link de imagen" class="input">
+                    </div>
+                </div>
+
+                <div id="boton">
+                    <button id="boton-espe">Añadir actividad</button>
+                </div>
+
+                <div id="comentario">
+                    <p>Sin actividades por el momento</p>
+                </div>
+
+            </article>
+        </section>
+    </main>
 </body>
 </html>
