@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nabla&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nabla&display=swap">
     <link rel="shortcut icon" href="assets/img/luna png.png" type="image/x-icon">
     <title>valentina</title>
 </head>
@@ -57,31 +57,40 @@
 
         <section>
             <article>
-
                 <div id="container-input">
                     <h2 class="titulos">🧘‍♀️Mis actividades favoritas🧘‍♀️</h2>
-                    
-                    <div>
-                        <input type="text" name="nombre" placeholder="Nombre de la actividad" class="input">
-                    </div>
-                    <div>
-                        <input type="text" name="descripción" placeholder="Descripción de la actividad" class="input">
-                    </div>
-                    <div>
-                        <input type="text" name="imagen" placeholder="Link de imagen" class="input">
-                    </div>
-                </div>
+                    <form>
 
-                <div id="boton">
-                    <button id="boton-espe">Añadir actividad</button>
-                </div>
+                        <div>
+                            <input type="text" name="nombre" placeholder="Nombre de la actividad" class="input">
+                        </div>
+                        <div>
+                            <input type="text" name="descripción" placeholder="Descripción de la actividad" class="input">
+                        </div>
+                        <div>
+                            <input type="text" name="imagen" placeholder="Link de imagen" class="input">
+                        </div>
+                    </div>
+                    
+                    <div id="boton">
+                        <button id="boton-espe">Añadir actividad</button>
+                    </div>
+
+                    <button onclick="miFuncion()">Haz clic</button>
+
+                <script>
+                function miFuncion() {
+                alert("¡Haz hecho clic!");
+                }
+                </script>
+                </form>
 
                 <div id="comentario">
                     <p>Sin actividades por el momento</p>
                 </div>
-
             </article>
         </section>
     </main>
+    <script src="./scripts/index.js"></script>
 </body>
 </html>
