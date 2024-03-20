@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/eventStyles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nabla&display=swap">
@@ -34,19 +35,19 @@
         <section>
             <article>
                 <div class="container">
-                    <h2 class="titulos" id="titulo-tec">🌞Mis tecnologías favoritas🌞</h2>                   
+                    <h2 class="titulos">🌞Mis tecnologías favoritas🌞</h2>                   
                     
                     <div id="container-cards">
                         <div class="cards">
-                            <h4 class="etiquetas">HTML</h4>
+                            <h4>HTML</h4>
                             <img src="assets/img/html.jpg" alt="html" class="image">
                         </div>
                         <div class="cards">
-                            <h4 class="etiquetas">JAVASCRIPT</h4>
+                            <h4>JAVASCRIPT</h4>
                             <img src="assets/img/js.jpg" alt="javascript" class="image">
                         </div>
                         <div class="cards">
-                            <h4 class="etiquetas">CSS</h4>
+                            <h4>CSS</h4>
                             <img src="assets/img/css.jpg" alt="css" class="image">
                         </div>
                     </div>
@@ -59,30 +60,35 @@
             <article>
                 <div id="container-input">
                     <h2 class="titulos">🧘‍♀️Mis actividades favoritas🧘‍♀️</h2>
+                    
                     <form>
-
                         <div>
-                            <input type="text" name="nombre" placeholder="Nombre de la actividad" class="input">
+                            <input type="text" name="nombre" placeholder="Nombre de la actividad" class="input" id="idNombre">
                         </div>
                         <div>
-                            <input type="text" name="descripción" placeholder="Descripción de la actividad" class="input">
+                            <input type="text" name="descripción" placeholder="Descripción de la actividad" class="input" id="idDescrip">
                         </div>
                         <div>
-                            <input type="text" name="imagen" placeholder="Link de imagen" class="input">
+                            <input type="url" name="imagen" placeholder="Link de imagen" class="input" id="idImg">
                         </div>    
                         <div id="boton">
                             <button id="boton-espe">Añadir actividad</button>
-                        </div>
-
+                        </div>                        
                     </form>
+
                 </div>
-                    
-                <div id="comentario">
-                    <p>Sin actividades por el momento</p>
-                </div>
+            </article>
+        </section>
+
+        <section id="divFinal">
+            <p id="comentario">Sin actividades por el momento</p>
+            <article class="actividadNueva">
+
             </article>
         </section>
     </main>
     <script src="./scripts/index.js"></script>
+    <script src="./scripts/indexDom.js"></script>
+
 </body>
 </html>

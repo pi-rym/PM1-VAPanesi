@@ -1,0 +1,35 @@
+.divActividad {
+    width: 25vw;
+    margin: auto;
+    margin-top: 1em;
+    padding: 2em;
+    border: 2px solid rgba(133, 115, 70, 0.24);
+    border-radius: 15%;
+}
+
+.divActividad:hover {
+    background-color: rgba(133, 132, 70, 0.212);
+}
+
+.botonBorrar:hover {
+    cursor: pointer;
+}
+
+.tituloActividad {
+    color: rgb(235, 232, 215);
+    margin-bottom: 0.8em;
+    text-align: center;
+}
+
+.textoActividad {
+    color: rgb(235, 232, 215);
+    margin-bottom: 1.5em;
+    text-align: center;
+    font-size: 0.7em;
+}
+
+.imagenActividad {
+    width: 300px;
+    padding: 1.5em;
+    border-radius: 8%;
+}
