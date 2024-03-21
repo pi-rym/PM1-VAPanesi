@@ -22,7 +22,7 @@ describe("la clase Repository", () => {
   it("debe tener el método createActivity()", () => {
     expect(repository.createActivity).toBeDefined();
   });
-  
+
   it("debe tener el método getAllActivities()", () => {
     expect(repository.getAllActivities).toBeDefined();
   });
@@ -30,5 +30,4 @@ describe("la clase Repository", () => {
   it("debe tener el método deleteActivity()", () => {
     expect(repository.deleteActivity).toBeDefined();
   });
-
 });
